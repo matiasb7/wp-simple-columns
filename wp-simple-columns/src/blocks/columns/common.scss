@@ -1,0 +1,13 @@
+$layouts: (
+  // 1-column layouts
+        "100": 1fr,
+  // 2-column layouts
+        "50-50": 1fr 1fr,
+        "25-75": 0.3fr 0.7fr,
+        "75-25": 0.7fr 0.3fr,
+  // 3-column layouts
+        "33-33-33": 0.33fr 0.33fr 0.33fr,
+        "25-50-25": 0.25fr 0.5fr 0.25fr,
+  // 4-column layouts
+        "25-25-25-25": 0.25fr 0.25fr 0.25fr 0.25fr,
+);

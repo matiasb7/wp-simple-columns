@@ -1,0 +1,22 @@
+{
+  "name": "simple-columns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build src/main/admin.js src/main/fe.js",
+    "start": "wp-scripts start src/main/admin.js src/main/fe.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/block-editor": "^13.4.0",
+    "@wordpress/components": "^28.4.0",
+    "@wordpress/data": "^10.4.0",
+    "@wordpress/element": "^6.4.0",
+    "@wordpress/scripts": "^28.4.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "sass": "^1.77.8"
+  }
+}

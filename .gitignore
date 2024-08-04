@@ -1,0 +1,17 @@
+test
+wp-simple-columns/build
+wp-simple-columns/node_modules
+wp-simple-columns/package-lock.json
+
+.idea
+.cache
+
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*.sass-cache

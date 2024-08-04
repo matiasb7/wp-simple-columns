@@ -1,0 +1,28 @@
+@import './common.scss';
+
+.sc-columns-placeholder {
+    .components-placeholder__fieldset {
+        display: block;
+    }
+}
+
+.sc-inner-columns {
+    margin-top: 10px;
+
+    > .block-editor-inner-blocks {
+         > .block-editor-block-list__layout {
+            display: grid;
+            gap: 15px;
+
+            .wp-block-column {
+                width: 100%;
+            }
+        }
+    }
+
+  @each $layout, $sizes in $layouts {
+    &.sc-inner-columns-#{length($sizes)}.sc-inner-layout-#{$layout} > .block-editor-inner-blocks > .block-editor-block-list__layout {
+      grid-template-columns: $sizes;
+    }
+  }
+}
