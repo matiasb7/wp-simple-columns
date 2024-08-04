@@ -17,6 +17,7 @@ This is a simple plugin which allows you to create columns in your theme.
 To set up the plugin for development, you will need to have Node.js installed on your machine and run the following commands:
 
 ```bash
+cd /wp-simple-columns
 npm install       # Install dependencies
 npm run start     # Compile and run the development build
 ```
